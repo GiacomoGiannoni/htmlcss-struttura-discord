@@ -5,6 +5,7 @@
 }
 
 /* inizio debug*/
+/*debug header*/
 
 .debug .col{
     border: dotted 2px #000;
@@ -22,12 +23,14 @@
     background-color: #EE82EE;
 }
 
-.debug main section{
+/*debug main*/
+
+.debug main section {
     height: 600px;
 }
 
-.debug main section:last-child{
-    height: 100px;
+.debug main section:last-child {
+    height: 1000px;
 }
 
 .debug .big-column{
@@ -41,6 +44,8 @@
 .debug .full-column{
     background-color: #228B22;
 }
+
+/*debug footer*/
 
 .debug .footer-top{
     height: 600px;
@@ -64,9 +69,10 @@
 }
 
 /*fine debug*/
+/*header*/
 
 header{
-    height: 548px;
+    height: 584px;
     background-color: #ADD8E6;
 }
 
@@ -116,6 +122,8 @@ header .menu-column li{
     width: 50%;
 }
 
+/*main*/
+
 main section{
     padding: 50px;
 }
@@ -143,4 +151,45 @@ section .container{
 .full-column{
     height: 100%;
     width: 100%;
+}
+
+/*footer*/
+
+footer{
+    background-color: #23272A;
+}
+
+.footer-top{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0px 50px 0px;
+}
+
+.footer-top .main-column{
+    width: 25%;
+}
+
+.footer-top .menu-column{
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-top .menu-column .col{
+    flex-basis: 25%;
+}
+
+.footer-bottom{
+    width: 1200px;
+    margin: 50px auto 0px;
+    display: flex;
+    justify-content: space-between; 
+    height: 80px;
+    align-items: center;
+}
+
+.footer-bottom col{
+    padding: 5px;  
 }

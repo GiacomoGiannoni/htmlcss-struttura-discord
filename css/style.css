@@ -1,0 +1,77 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* inizio debug*/
+
+.debug .col{
+    border: dotted 2px #000;
+}
+
+.debug header .topbar > div{
+    background-color: #DAA520;
+}
+
+.debug #jumbotron{
+    background-color: #00008B;
+}
+
+.debug #jumbotron .content{
+    background-color: #EE82EE;
+}
+
+/*fine debug*/
+
+header{
+    height: 548px;
+    background-color: #ADD8E6;
+}
+
+header .topbar{
+    height: 80px;
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+header .topbar > div{
+    padding: 10px;
+}
+
+header .logo-column, header .login-column{
+   width: 20%; 
+} 
+
+header .login-column{
+    text-align: right;
+}
+
+header .menu-column{
+    width: 60%;
+}
+
+header .menu-column ul{
+   display: flex;
+   justify-content: center; 
+   list-style: none;
+}
+
+header .menu-column li{
+    padding: 0 5px;
+}
+
+#jumbotron{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+#jumbotron .content{
+    height: 100%;
+    width: 50%;
+}
+

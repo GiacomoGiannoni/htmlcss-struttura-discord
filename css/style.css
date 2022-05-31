@@ -22,6 +22,47 @@
     background-color: #EE82EE;
 }
 
+.debug main section{
+    height: 600px;
+}
+
+.debug main section:last-child{
+    height: 100px;
+}
+
+.debug .big-column{
+    background-color: #1E90FF;
+}
+
+.debug .small-column{
+    background-color: #FFC0CB;
+}
+
+.debug .full-column{
+    background-color: #228B22;
+}
+
+.debug .footer-top{
+    height: 600px;
+}
+
+.debug .main-column{
+    background-color: #F08080;  
+}
+
+.debug .footer-top .menu-column .col{
+    border: dotted 2px #fff;
+    background-color: #20B2AA;
+}
+
+.debug .footer-bottom{
+    background-color: #7FFFD4;
+}
+
+.debug .footer-bottom col{
+    background-color: #FFC0CB;
+}
+
 /*fine debug*/
 
 header{
@@ -75,3 +116,31 @@ header .menu-column li{
     width: 50%;
 }
 
+main section{
+    padding: 50px;
+}
+
+.bg-grey{
+    background-color: lightgrey;
+}
+
+section .container{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+}
+
+.big-column{
+    width: 60%;
+}
+
+.small-column{
+    width: 40%;
+}
+
+.full-column{
+    height: 100%;
+    width: 100%;
+}
